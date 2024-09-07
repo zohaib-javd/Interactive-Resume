@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Zohaib Javed CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Muhammad Zohaib Javed</h1>
+    <hr>
+   
+    <img class="top-right-image" src="Zohaib.jpg" alt="Muhammad Zohaib Javed" height="200">
+
+    <div class="section">
+        <h2>Contact Information</h2>
+        <p>
+            Contact Number: 0322-2388848 <br>
+            Date of Birth: 31<sup>st</sup> March 1985. <br>
+            Email: <a href="mailto:zohaibjaved@gmail.com">zohaibjaved@gmail.com</a>
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Work Experience</h2>
+
+        <img src="Askari Bank.jpeg" alt="Askari Bank" height="50">
+        <p><b>Senior Manager Service Quality (South) at <a href="https://askaribank.com/">Askari Bank Limited</a> (April 2014 - Present)</b></p>
+        
+        <button class="btn-toggle" onclick="openDetailsPage('askari.html')">More Details</button>
+        <div id="askari-details" class="hidden">
+            
+        </div>
+
+        <img src="Meezan.png" alt="Meezan Bank" height="60">
+        <p><b>Customer Complaints Analyst at <a href="https://www.meezanbank.com/">Meezan Bank Limited</a> (March 2011 - March 2014)</b></p>
+
+        <button class="btn-toggle" onclick="openDetailsPage('meezan.html')">More Details</button>
+        <div id="meezan-details" class="hidden">
+           
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Academic Credentials</h2>
+        <img src="Maju.png" alt="Mohammad Ali Jinnah University" height="60">
+        <p>
+            <strong>Masters of Business Administration</strong> (Finance) - Year (2010)<br>
+            <a href="https://www.jinnah.edu/">Mohammad Ali Jinnah University</a>
+        </p>
+        <p>
+            <strong>Bachelor of Business Administration</strong> - Year (2008)<br>
+            <a href="https://www.jinnah.edu/">Mohammad Ali Jinnah University</a>
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Skills Highlights:</h2>
+        <div id="skills-section">
+            <p>Passionate about leveraging my expertise to drive operational excellence and deliver exceptional customer service within the banking industry. Let's connect to explore opportunities for mutual growth and success.</p>
+        </div>
+        <button class="btn-toggle" onclick="openDetailsPage('Skills.html')">More Details</button>
+        <div id="skills-section" class="hidden">
+    
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Certifications</h2>
+    
+        <ul>
+            <li>
+                <strong>Certified Banking Professional</strong> <br>
+                Issued by: Pakistan Institute of Banking & Finance <br>
+                Year: 2012
+            </li>
+            <li>
+                <strong>Customer Service Excellence</strong> <br>
+                Issued by: Meezan Bank Training Academy <br>
+                Year: 2013
+            </li>
+            <li>
+                <strong>Financial Risk Management Certification</strong> <br>
+                Issued by: CFA Institute <br>
+                Year: 2019
+            </li>
+        </ul>
+
+    </div>
+
+
+
+    <script src="app.js" type="module"></script>
+</body>
+</html>
